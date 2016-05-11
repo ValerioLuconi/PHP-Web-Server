@@ -1,7 +1,0 @@
-HTTP/$version 500 Server Internal Error
-Connection: close
-Content-Length: $len
-Content-Type: text/html
-Date: $date
-Server: PHP Web Server
-
