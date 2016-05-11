@@ -1,0 +1,41 @@
+9
+
+dir
+3
+svn+ssh://s234884-studenti@onelab3.iet.unipi.it/home/LIA09/s234884/remote_repo/errors
+svn+ssh://s234884-studenti@onelab3.iet.unipi.it/home/LIA09/s234884/remote_repo
+
+
+
+2009-06-30T17:56:38.678421Z
+2
+s234884-studenti
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6afc26e0-df5f-de11-b4f4-0013723f7e6a
+
+
+
+
+
+
+0
+
+http
+dir
+
+html
+dir
+
