@@ -1,20 +1,20 @@
 <?php
 
-echo "<html><head><title>PAGINA DI PROVA</title></head>\n";
+echo "<html><head><title>TEST PAGE</title></head>\n";
 
 echo "<body><pre>\n";
-echo "Variabili di ambiente\n";
+echo "Environment variables\n";
 print_r($_ENV);
 
-echo "Variabili Server:\n";
+echo "Server vars:\n";
 print_r($_SERVER);
 
 if(isset($_GET)) {
-        echo "Variabili GET:\n";
+        echo "GET vars:\n";
         print_r($_GET);
 }
 if(isset($_POST)) {
-        echo "Variabili POST:\n";
+        echo "POST vars:\n";
         print_r($_POST);
 }
 
