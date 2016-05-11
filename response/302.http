@@ -1,0 +1,5 @@
+HTTP/$version 302 Found
+Content-Length: $len
+Content-Type: text/html
+Date: $date
+Server: PHP Web Server

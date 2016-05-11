@@ -1,0 +1,6 @@
+HTTP/$version 300 Multiple Choices
+Content-Length: $len
+Content-Type: text/html
+Date: $date
+Server: PHP Web Server
+

@@ -1,0 +1,4 @@
+HTTP/$version 200 OK
+Content-Length: $len
+Date: $date
+Server: PHP Web Server

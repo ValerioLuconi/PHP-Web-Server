@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Klaatu Barada Biologia!</title>
+<link rel="stylesheet" href="stile.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+<div id="corpo">
+
+<div id="head">
+<img src="klaatu.gif" />
+</div>
+
+<div id="menu">
+<a href="index.html"><img src="pulsanti/home.jpg" /></a><a href="news.html"><img src="pulsanti/news.jpg" /></a><a href="materiale.html"><img src="pulsanti/materiale.jpg" /></a><a href="links.html"><img src="pulsanti/links.jpg" /></a><a href="http://biologiapisa.okforum.it/" target="_blank"><img src="pulsanti/forum.jpg" /></a><a href="contatti.html"><img src="pulsanti/contatti.jpg" /></a>
+</div>
+
+<div id="text">
+<p>Per informazioni, suggerimenti, o altro:
+<br />
+<br />
+biologiapisa (at) altervista (dot) org</p>
+</div>
+
+<div id="footer">
+<img src="footer.jpg" />
+</div>
+
+</div>
+
+</body>
+</html>
