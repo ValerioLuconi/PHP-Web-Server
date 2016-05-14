@@ -10,7 +10,7 @@ PHP Web Server requires that `php-cli` and `php-cgi` are installed:
 
 	sudo apt-get install php5 php5-cgi
 
-In `php-cgi` `php.ini` file copy the following line:
+In `php-cgi` `php.ini` file set the following line:
 
 	cgi.force_redirect = 0
 
