@@ -1,7 +1,6 @@
 # PHP Web Server
 
-Simple web server implemented in PHP.
-Bachelor's degree thesis project.
+Simple web server implemented in PHP for my Bachelor's degree thesis project. PHP Web Server supports `HEAD`, `GET` and `POST` methods, compression and chunked transfer encoding. PHP Web Server can execute CGI and PHP scripts.
 
 ## Installation
 
@@ -40,6 +39,14 @@ You can set up aliases for an host with:
 	Alias: /<alias_name>/ /<alias_path>/
 
 Make sure to insert the `/`s and not leave white spaces or empty rows between the `Host` and `Alias` rows.
+
+An example host configuration is:
+
+	Host: localhost /home/www/
+	Alias: /~valerio/ /home/valerio/
+	Alias: /cgi-bin/ /script/cgi-bin/
+
+CGI scripts have to be located in a `/cgi-bin/` directory **inside** the home directory of a host.
 
 ## Usage
 
