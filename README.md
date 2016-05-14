@@ -52,4 +52,4 @@ CGI scripts have to be located in a `/cgi-bin/` directory **inside** the home di
 
 Simply type
 
-	./server.php
+	php server.php
