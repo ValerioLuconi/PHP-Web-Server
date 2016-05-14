@@ -770,17 +770,18 @@ class Response
 
                 // header given from script is not valid.
                 if($header === false) {
-                        $this->error($socket, 500, $this->method, $version);
+                        $this->error($socket, 500, $method, $version);
                         $this->connection = "close";
                         fclose($pipes[1]);
                         fclose($pipes[2]);
                         proc_close($res);
                         return;
                 }
+
                 $headers = parse_script_header($header);
                 // not valid headers
                 if($headers === false) {
-                        $this->error($socket, 500, $this->method, $version);
+                        $this->error($socket, 500, $method, $version);
                         $this->connection = "close";
                         fclose($pipes[1]);
                         fclose($pipes[2]);
@@ -794,7 +795,7 @@ class Response
                         $status = explode(" ", $status, 2);
                         $code = $status[0];
                         if(!ctype_digit($code)) {
-                                $this->error($socket, 500, $this->method, $version);
+                                $this->error($socket, 500, $method, $version);
                                 $this->connection = "close";
                                 fclose($pipes[1]);
                                 fclose($pipes[2]);
