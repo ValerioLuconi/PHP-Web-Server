@@ -27,7 +27,8 @@ By default the PHP Web Server listens on port 1234. To change the port edit the 
 
 	Port: 1234
 
-with
+with:
+
 	Port: <your_port_nuber>
 
 You can set up your host configuration with:
