@@ -1,6 +1,6 @@
 # PHP Web Server
 
-Simple web server implemented in PHP for my Bachelor's degree thesis project. PHP Web Server supports `HEAD`, `GET` and `POST` methods, compression and chunked transfer encoding. PHP Web Server can execute CGI and PHP scripts.
+Simple web server implemented in PHP for my Bachelor's degree thesis project. PHP Web Server supports `HEAD`, `GET` and `POST` methods, compression, and chunked transfer encoding. PHP Web Server can execute CGI and PHP scripts.
 
 ## Installation
 
