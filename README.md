@@ -8,7 +8,7 @@ PHP Web Server has been tested only on Ubuntu Linux with PHP5.
 
 PHP Web Server requires that `php-cli` and `php-cgi` are installed:
 
-	sudo apt-get install php5 php5-cgi
+	$ sudo apt-get install php5 php5-cgi
 
 In `php-cgi` `php.ini` file set the following line:
 
@@ -16,7 +16,7 @@ In `php-cgi` `php.ini` file set the following line:
 
 Then simply clone the repository:
 
-	git clone https://github.com/ValerioLuconi/PHP-Web-Server.git
+	$ git clone https://github.com/ValerioLuconi/PHP-Web-Server.git
 
 ## Configuration
 
@@ -52,4 +52,4 @@ CGI scripts have to be located in a `/cgi-bin/` directory **inside** the home di
 
 Simply type
 
-	php server.php
+	$ php server.php
